@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomerModifierComponent } from './task2/customer-modifier/customer-modifier.component';
 import { Task4Component } from './task4/task4.component';
 import { ElementComponent } from './task3/element/element.component';
+import { ColorChangerDirective } from './task3/color-changer.directive';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ElementComponent } from './task3/element/element.component';
     Task2Component,
     CustomerModifierComponent,
     Task4Component,
-    ElementComponent
+    ElementComponent,
+    ColorChangerDirective
   ],
   imports: [
     BrowserModule,
